@@ -1,0 +1,23 @@
+#Name:T.sai krishna
+#Lab:01
+#Task:01
+#Program:Valid Identifiers
+name="sai krishna"
+PI=3.14
+def greet():
+    print("All the best")
+class Add:
+    pass
+jersey_number=45
+print(name)
+print(PI)
+print(greet)
+print(Add)
+print(jersey_number)
+#Lab:01
+#Task:03
+#Program:Case Sensitivity of Identifiers
+Marks=45
+marks=18
+print(Marks)
+print(marks)
