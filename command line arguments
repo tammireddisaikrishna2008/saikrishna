@@ -1,0 +1,43 @@
+#Name: T.Sai krishna
+#Lab:07
+#Task:01
+#Program:Printing name using sys 
+import sys
+name=sys.argv[1]
+print("Hello",name)
+#Name: T.Sai krishna
+#Lab:07
+#Task:02
+#Program:Adding of two numbers using command line arguments
+import sys
+if len(sys.argv)==3:
+    n1=int(sys.argv[1]);n2=int(sys.argv[2])
+    print("n1=",n1)
+    print("n2=",n2)
+    print("sum=",n1+n2)
+else:
+    print("wrong number of arguments")
+#Name: T.Sai krishna
+#Lab:07
+#Task:03
+#Program:Printing script name and toal no of arguments
+import sys
+print(sys.argv[0])
+print(len(sys.argv))
+#Name:T.Sai krishna
+#Lab:07
+#task:challenge
+import sys
+
+if len(sys.argv) != 3:
+    print("Usage: python program.py <num1> <num2>")
+    sys.exit()
+
+try:
+    num1 = int(sys.argv[1])
+    num2 = int(sys.argv[2])
+
+    print("Sum =", num1 + num2)
+
+except ValueError:
+    print("Please enter valid integer values.")
