@@ -1,6 +1,6 @@
 #Name: T.sai krishna
 #Program:Login validator
-username="sivasairoshini"
+username="sai"
 password=135780
 inname=input("Enter your username:\n")
 inpassword=int(input("Enter your password:\n"))
